@@ -33,16 +33,25 @@ spec:
       - name: sdb
         config:
           osdsPerDevice: "1"
+      - name: sdc
+        config:
+          osdsPerDevice: "1"    
     - name: ruka03
       devices:
       - name: sdb
         config:
           osdsPerDevice: "1"
+      - name: sdc
+        config:
+          osdsPerDevice: "1"    
     - name: ruka04
       devices:
       - name: sdb
         config:
           osdsPerDevice: "1"
+      - name: sdd
+        config:
+          osdsPerDevice: "1"    
   placement:
     all:
       nodeAffinity:
