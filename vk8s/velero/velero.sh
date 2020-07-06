@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+BUCKET=vk8s-backup
+
 set -xe
 
 velero install \
