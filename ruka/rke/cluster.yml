@@ -49,22 +49,20 @@ nodes:
   ssh_cert_path: ""
   labels:
     role: storage-node
-# - address: ruka04.ls.lsst.org
-#   port: "22"
-#   internal_address: ""
-#   role:
-#   - controlplane
-#   - worker
-#   - etcd
-#   # hostname_override: "ruka04"
-#   # user: rke
-#   # docker_socket: /var/run/docker.sock
-#   # ssh_key: ""
-#   # ssh_key_path: ~/.ssh/id_rsa
-#   # ssh_cert: ""
-#   # ssh_cert_path: ""
-#   # labels:
-#   #   role: storage-node
+- address: ruka04.ls.lsst.org
+  port: "22"
+  internal_address: ""
+  role:
+  - worker
+  hostname_override: "ruka04"
+  user: rke
+  docker_socket: /var/run/docker.sock
+  ssh_key: ""
+  ssh_key_path: ~/.ssh/id_rsa
+  ssh_cert: ""
+  ssh_cert_path: ""
+  labels:
+    role: storage-node
 # - address: ruka05.ls.lsst.org
 #   port: "22"
 #   internal_address: ""
