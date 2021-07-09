@@ -22,7 +22,13 @@ spec:
       devices:
       - name: sdb
         config:
-          osdsPerDevice: "4"
+          osdsPerDevice: "2"
+      - name: sdc
+        config:
+          osdsPerDevice: "2"
+      - name: sdd
+        config:
+          osdsPerDevice: "2"
     - name: andes05.cp.lsst.org
       devices:
       - name: sdb
