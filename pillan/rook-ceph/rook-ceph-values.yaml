@@ -1,3 +1,6 @@
+image:
+  repository: jhoblitt/rook
+  tag: ceph-64d833bb
 tolerations:
   - &storage_node_tol
     key: role
