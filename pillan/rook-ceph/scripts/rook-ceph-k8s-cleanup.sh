@@ -27,4 +27,4 @@ kubectl delete ns rook-ceph
 kubectl api-resources --verbs=list --namespaced -o name \
   | xargs -n 1 kubectl get --show-kind --ignore-not-found -n rook-ceph
 
-# vim: tabstop=2 shiftwidth=2 expandtabr
+# vim: tabstop=2 shiftwidth=2 expandtab
